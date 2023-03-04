@@ -10,6 +10,7 @@ class Attack {
      * @param {boolean} isCrushing
      */
     constructor(timestamp, source, name, amount, isCrushing) {
+        this.timestamp = timestamp;
         this.source = source;
         this.name = name;
         this.amount = amount;
